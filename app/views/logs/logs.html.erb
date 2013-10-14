@@ -1,0 +1,9 @@
+<pre id="logs">
+  <%= @lines.join("\n").html_safe %>
+</pre>
+
+<script>
+  $(function(){
+    window.scrollTo(0,document.body.scrollHeight);
+  });
+</script>
