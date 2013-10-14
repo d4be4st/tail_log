@@ -1,4 +1,4 @@
-class LogsController < ApplicationController
+class LogsController < ActionController::Base
 
   def logs
     log = File.join(Rails.root, "log", "#{ Rails.env }.log")
