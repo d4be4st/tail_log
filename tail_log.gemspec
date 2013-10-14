@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["stjepan.hadjic@infinum.hr"]
   spec.description   = %q{Gem for easy logs view}
   spec.summary       = %q{Simple tailing of env logs}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/d4be4st/tail_log"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
