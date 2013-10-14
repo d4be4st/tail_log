@@ -1,6 +1,6 @@
 # TailLog
 
-TODO: Write a gem description
+Tails your logs in browser (needs f5)
 
 ## Installation
 
@@ -12,13 +12,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install tail_log
-
 ## Usage
 
-TODO: Write usage instructions here
+Add in your routes.rb:
+
+    get '/logging' => 'logs#logs'
+
+and that is it
 
 ## Contributing
 
